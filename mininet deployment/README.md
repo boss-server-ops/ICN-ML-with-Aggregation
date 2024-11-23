@@ -66,6 +66,9 @@ tcpdump -i eth0(根据ifconfig选择)
 
 
 # 服务器部署mininet
+https://mininet.org/download/
+选择Option2里的方式
+
 ```bash
 # 执行到安装部分时，原本提供的install.h有很多错误，将mininet/util/install.h更换为当前仓库目录下的install.h并运行：
 mininet/util/install.h -a
